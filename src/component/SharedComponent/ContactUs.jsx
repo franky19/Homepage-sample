@@ -3,15 +3,14 @@ import { FaTelegramPlane} from "react-icons/fa";
 const ContactUs = (props) => {
     return (
            <div className="container-fluid mx-auto">
-                <div className="hidden lg:block bg-no-repeat bg-cover mt-0" style={{backgroundImage:`url('/assets/img/monas2.jpg')`,height:"900px",width:"100%"}}  >
+                <div className="bg-no-repeat bg-cover mt-0" style={{backgroundImage:`url('/assets/img/monas2.jpg')`,height:"700px",width:"100%"}}  >
                        <div className="flex justify-center text-center text-white"  htmlFor="#/Contact-Us">
-                                <h4 className="text-2xl font-bold" style={{marginTop:"10%"}}>{props.title}</h4>
+                                <h4 className="text-2xl text-xl  font-bold" style={{marginTop:"10%"}}>{props.title}</h4>
                         </div>
                         <div className="mt-2  mb-10 flex justify-center text-center text-white" style={{marginTop:"2%"}}>
-                            <p className="text-lg ">
+                            <p className="text-xl text-lg">
                                 {props.description}
                             </p>
-                                {/* <h5 className="text-2xl ">Intrique to know more about pojokan.io? Drop us a message at your convenience</h5> */}
                         </div>
 
                     <div className="sm:mt-0 ml-12 mr-12" style={{marginTop:"10%"}}>
