@@ -6,7 +6,7 @@ import {AiOutlineDashboard} from 'react-icons/ai'
 const AboutUs = (props) => {
     return (
             <div className="container-fluid mx-auto" id="AboutUs" htmlFor="#AboutUs">
-                <div className="hidden lg:block bg-slate-50 mt-0 w-full">
+                <div className="hidden sm:block bg-slate-50 mt-0 w-full">
             `       <div className="flex justify-center text-center" style={{marginTop:"2em"}}>
                         <h4 className="text-2xl font-bold">{props.title}</h4>
                         {/* <h4 className="text-2xl font-bold">What's the special about us ?</h4> */}
@@ -24,7 +24,7 @@ const AboutUs = (props) => {
                                         <Link to="/"> <h4 className="text-xl font-bold">Agile Framework</h4> </Link>
                                         <p className="mt-2">{props.descriptionSubTitle1}</p>
                                     </div>    
-                                    <div className="box-border hover:box-content bg-transparant w-1/4">
+                                    <div className="box-border hover:box-content bg-transparant w-1/4 ml-5 mr-5">
                                         <Link to="/"><AiOutlineDashboard size={"4em"} className="mr-auto ml-auto mt-3 text-orange-500" /></Link>
                                         <Link to="/"><h4 className="text-xl font-bold">Continuously Integration</h4></Link>
                                         <p className="mt-2">{props.descriptionSubTitle2}</p>
